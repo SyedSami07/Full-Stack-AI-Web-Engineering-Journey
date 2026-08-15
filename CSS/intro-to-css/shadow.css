@@ -1,0 +1,17 @@
+.blog{
+    background-color: #ff8383;
+    width: 400px;
+    margin: 50px;
+    box-shadow: 20px 20px 50px
+  
+}
+
+#header{
+    background-color: #e9ff20;
+    background-image: url('msi_pro.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    height: 1200px;
+
+}

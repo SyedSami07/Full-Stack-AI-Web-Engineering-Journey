@@ -1,0 +1,185 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 80px 8%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E2622;
+    align-items: center;
+    padding: 18px 8%;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.coffee-color{
+    color: #E9B44C;
+}
+
+
+header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/bg-image.avif');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+  color: white;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+
+.header-content button{
+    width: 20%;
+    margin-left: 40%;
+    padding: 10px 0;
+    background-color: #E9B44C;
+    border-radius: 18px;
+}
+.our-story{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.our-story div img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.our-story .right-side {
+    display: grid;
+    align-items: center;
+
+}
+
+.right-side div h2 {
+    padding-bottom: 12px;
+}
+
+.right-side div p {
+    padding-bottom: 12px;
+}
+
+.right-side div button{
+    padding: 8px 12px;
+    border-radius: 18px;
+    background-color: #E9B44C;
+    border: none;
+}
+
+.popular-bg{
+    background-color: #F1E7D8;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 70px;
+}
+
+.card-container .card{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+
+}
+
+.our-menu{
+    text-align: center;
+}
+
+.card img {
+    padding-bottom: 12px;
+}
+
+.card h1 {
+    padding-bottom: 12px;
+}
+
+.card p {
+    padding-bottom: 12px;
+}
+
+.top {
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 70px;
+}
+
+td, th {
+    border: 2px solid #2E2622;
+    padding: 12px 5px;
+}
+thead {
+    background-color: #2E2622;
+}
+th{
+    color: #E9B44C;
+}
+.image-container{
+    position: relative;
+    border: 2px dashed black;
+}
+
+.image-container img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.first{
+    width: 300px;
+    position: absolute;
+    bottom: 70px;
+    left: 12px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 18px;
+
+}
+
+.second{
+    width: 100px;
+    border: 2px solid #E9B44C;
+    background-color: white;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+

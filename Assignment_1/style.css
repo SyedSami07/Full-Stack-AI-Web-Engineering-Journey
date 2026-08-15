@@ -1,0 +1,442 @@
+/* common things */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.common-btn{
+  padding: 12px 30px;
+  background-color: #2563EB;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+section{
+    padding: 90px 8%;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* common things end */
+
+
+/* navbar design */
+.nav-parent{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 18px 8%;
+    
+}
+
+.nav-parent ul{
+    display: flex;
+    list-style: none; 
+    gap: 20px;
+   
+   
+}
+
+.nav-parent ul a{
+    text-decoration: none;
+    color: #575757;
+}
+/* navbar design end */
+
+
+/* header design */
+header{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/banner.jpg');
+    width: 100%;
+    min-height: 90vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+}
+.header-content{
+   color: white;
+   text-align: center;
+   display: grid;
+   gap: 20px;
+}
+
+.header-content button{
+    margin: 0 35%;
+    margin-top: 75%;
+}
+.header-content h1{
+    font-size: 50px;
+}
+
+.speaker-section h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card-parent{
+    display: flex;
+    gap: 32px;           
+    padding: 0 8%;
+   
+}
+.card-parent .info{
+    padding: 0 15px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 8px;    
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    
+    
+}
+.card img{
+    width: 100%;
+}
+
+
+
+.card-title{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #1D4ED8;
+}
+
+.card-company{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #575757;
+}
+/* header design end */
+
+
+/* pricing section design starts */
+
+
+.pricing-section {
+   padding: 50px 18%;
+}
+
+.pricing-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pricing-header h1{
+    font-size: 50px;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+    
+}
+
+.pricing-header p {
+    color: #575757;
+    
+}
+
+.pricing-parent{
+    display: flex;
+    gap: 57px;
+    justify-content: center;
+    
+}
+.pricing-card{
+    flex: 1;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 12px; 
+    padding: 32px 60px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pricing-card span{
+    font-size: 12px;
+    font-weight: bold;
+    color: #888888;
+}
+
+.pricing-card hr{
+    margin-top: 20px;
+    color: #E5E7EB;
+    margin-right: 8px;
+}
+
+.dark-card{
+    background-color: #0D1B2A;
+    color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans", sans-serif;
+}
+.off-white{
+    background-color: #F8F9FB;
+}
+
+.dark-card span{
+    color: #60A5FA;
+}
+
+.pricing-card h2 {
+    font-size: 42px;
+    color: #0f172a;
+
+}
+
+.dark-card h2 {
+    color: white;
+}
+
+.pricing-card p{
+    color: #333333;
+}
+.dark-card p {
+    color: #FFFFFF;  
+       
+}
+
+
+.pricing-card hr {
+    border: 0;
+    border-top: 1px solid #E5E7EB;
+    margin: 20px 0;
+}
+
+.dark-card hr {
+    border-top: 1px solid #e5e7eb6e;
+}
+
+.card-list{
+    margin-bottom: 20px;
+}
+
+.card-list p {
+    margin-bottom: 10px; 
+}
+
+
+
+
+.pricing-card .dot{
+    color: #60A5FA;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.pricing-button-1{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #2563EB;
+    background-color: white;
+}
+.pricing-button-1 span{
+    color:#2563EB ;
+}
+.pricing-button-3{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+/* pricing section design ends */
+
+
+/* PLACEHOLDER SECTION — AI CHALLENGE design starts */
+
+/* --- Tracks Section Background & Frame --- */
+.tracks-section {
+    background-color: #ffffff; /* Clean contrast swap from the light gray pricing section */
+    padding: 80px 8%;          /* Consistent margins keeping navbar grids aligned */
+}
+
+.tracks-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tracks-header h1 {
+    font-size: 36px;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.tracks-header p {
+    color: #64748b;
+    font-size: 16px;
+}
+
+/* --- 4-Column Flex Layout Track --- */
+.tracks-parent {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* --- Individual Track Grid Boxes --- */
+.track-card {
+    flex: 1;                     /* Spreads all 4 column cards completely evenly */
+    background-color: #f8fafc;   /* Ultra-subtle gray box tint */
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px 24px;
+    transition: transform 0.2s ease; /* Basic smooth micro-interaction for UX feel */
+}
+
+/* Simple, safe hover interaction to make the Figma spec feel alive */
+.track-card:hover {
+    transform: translateY(-5px); /* Gentle lift effect when cursor hovers */
+    border-color: #1D4ED8;       /* Accents card border with your signature blue */
+}
+
+/* Inner Box Elements */
+.track-icon {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.track-card h3 {
+    font-size: 20px;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.track-card p {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;            /* Essential line-height to make long sentences readable */
+}
+
+/* PLACEHOLDER SECTION — AI CHALLENGE design starts */
+
+.tracks-section {
+    background-color: #ffffff; 
+    padding: 90px 8%;          /* Reuses your exact global speaker section paddings */
+}
+
+.tracks-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tracks-header h1 {
+    font-size: 50px;           /* Perfectly matches your speaker and pricing header sizing scale */
+    color: #0D1B2A;            /* Matches your primary deep slate color */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tracks-header p {
+    color: #575757;            /* Unified with your global body/paragraph text colors */
+    font-size: 16px;
+}
+
+/* --- 4-Column Flex Layout Track --- */
+.tracks-parent {
+    display: flex;
+    gap: 32px;                 /* Syncs cleanly with your .card-parent grid system */
+    justify-content: center;
+}
+
+/* --- Individual Track Grid Boxes --- */
+.track-card {
+    flex: 1;                   /* Forces cards to share layout horizontal real estate flawlessly */
+    background-color: #F8F9FB; /* Borrowed cleanly from your .off-white card color rules */
+    border: 1px solid rgba(0, 0, 0, 0.05); /* Direct match to speaker card strokes */
+    border-radius: 12px;
+    padding: 35px 25px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+/* Figma micro-interaction hover state */
+.track-card:hover {
+    transform: translateY(-5px);
+    border-color: #2563EB;     /* Highlights cleanly with your main royal blue brand color */
+}
+
+/* Inner Box Styling Elements */
+.track-icon {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.track-card h3 {
+    font-size: 22px;
+    color: #0D1B2A;
+    margin-bottom: 12px;
+}
+
+.track-card p {
+    font-size: 14px;
+    color: #575757;
+    line-height: 1.6;          /* Clean readability configuration for text descriptions */
+}
+
+/* PLACEHOLDER SECTION — AI CHALLENGE design ends */
+
+
+/* footer design starts */
+footer {
+    background-color: #0D1B2A;
+    padding: 30px 8%;
+    font-family: sans-serif;
+}
+
+.footer-socials {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-socials a {
+    color: #ffffff73;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.footer p{
+    color: #ffffff73;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-sub a {
+    color: #ffffff73;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* footer design ends */

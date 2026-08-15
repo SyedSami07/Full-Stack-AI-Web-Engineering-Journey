@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Host Grotesk", sans-serif;
+}
+
+.common-btn{
+    padding: 10px;
+    border-radius: 8px;
+    background: #F4C430;
+    border: none;
+    font-weight: bold;
+
+}
+section{
+    padding: 80px 8%
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    align-items: center;   
+}
+
+.logo{
+    display: flex;
+    font-size: 50%;
+}
+.logo h1{
+    margin: 6px;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    color: #575757;
+    list-style-type: none;
+    margin-right: 750px;
+}
+
+
+.hero{
+    background-image: url("./images/Background.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero{
+color: white;
+display: grid;
+justify-content: start;
+align-items: center;
+
+}
+.hero-content{
+ margin:0 100px;
+}
+
+.hero-content h1{
+     font-size: 80px;
+}
+.hero-content p{
+    font-size: 18px;
+}
+.hero-content button{
+   margin-top: 20px ;
+width: 40%;
+height: 45px;
+  
+}
+
+
+.layout{
+    background: #F4C430;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+}
+
+.start p{
+   margin-bottom: 12px;
+   margin-top: 20px;
+   color: #000102;
+}
+
+.start h1{
+    font-size: 40px;
+    font-weight: bold;
+     margin-bottom: 12px;
+}
+
+.explore-section{
+    text-align: center;
+    margin-bottom: 56px;
+    font-size: 45px;
+}
+
+
+.explore-section-card{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+    align-items: center;
+    padding: 20px 90px;
+}
+
+
+.left img{
+    width: 100%;
+    display: block;
+
+}
+
+.right{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.right p{
+    font-size: 15px;
+    color: #575757;
+}
+
+
+.button-container{
+    text-align: center;
+    padding: 20px 0;
+}

@@ -1,0 +1,22 @@
+article{
+    background-color: rgb(36, 197, 255);
+}
+
+h2{
+    text-align: center;
+}
+
+.second-article{
+    display: none;
+    /* visibility: hidden; */
+}
+
+span{
+    color:rgb(47, 0, 255);
+    width: 200px;
+    height: 200px;
+    /* display: block; */
+    display: inline-block;
+    border: 2px solid black;
+    
+}
