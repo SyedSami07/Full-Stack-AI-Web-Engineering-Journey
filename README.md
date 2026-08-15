@@ -4,17 +4,17 @@ I will consistently practice, update to github and improve these technologies to
 
 Learning Roadmap:
 
-HTML
-CSS
-JavaScript
-TypeScript
-React
-Tailwind CSS
-Next.js
-BetterAuth
-Node.js
-MongoDB
-Mongoose
-Git & GitHub
-AI Mindset & Engineering
+HTML,
+CSS,
+JavaScript,
+TypeScript,
+React,
+Tailwind CSS,
+Next.js,
+BetterAuth,
+Node.js,
+MongoDB,
+Mongoose,
+Git & GitHub,
+AI Mindset & Engineering,
 AI-Assisted Coding
