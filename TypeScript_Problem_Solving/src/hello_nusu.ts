@@ -13,4 +13,4 @@ const Give_chocolate_and_fixNusuMood = (chocolate: number): string => {
     }
 }
 
-console.log(Give_chocolate_and_fixNusuMood(32))
+console.log(Give_chocolate_and_fixNusuMood(31))
