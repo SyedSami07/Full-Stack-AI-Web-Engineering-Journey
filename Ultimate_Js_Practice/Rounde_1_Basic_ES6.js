@@ -20,4 +20,15 @@ const greet = (name) => {
 const makeCoffee = (sugar = 1) => {
     return `Making coffee with ${sugar} spoon of sugar`
 }
-console.log(makeCoffee(3))
+// console.log(makeCoffee(3))
+
+
+// 3. Check Even
+// isEven(10)
+// Output: true
+
+const isEven = (number) => {
+    return number % 2 === 0 ? true : false;
+}
+
+console.log(isEven(7))
