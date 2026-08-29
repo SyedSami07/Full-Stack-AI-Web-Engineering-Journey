@@ -21,7 +21,7 @@ const makeCoffee = (sugar = 1) => {
 // isEven(10)
 // Output: true
 const isEven = (number) => {
-    return number % 2 === 0 ? true : false;
+    return number % 2 === 0 ? true : false
 }
 // console.log(isEven(7))
 
