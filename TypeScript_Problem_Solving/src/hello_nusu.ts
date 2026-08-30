@@ -5,7 +5,7 @@ const Give_chocolate_and_fixNusuMood = (chocolate: number): string => {
     } 
     
     else if(chocolate >= 0 && chocolate <=5){
-        return "Ar mattam nay"
+        return "Ar mattam nay."
     }
 
     else if(chocolate >= 6 && chocolate <= 31){
