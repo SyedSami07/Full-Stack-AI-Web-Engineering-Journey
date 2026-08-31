@@ -1,0 +1,22 @@
+.test{
+    font-size: 120px;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+}
+
+@media (max-width: 800px){
+    .test{
+    font-size: 60px;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+}
+}
+
+@media (max-width: 600px){
+    .test{
+    background-color: rgb(0, 162, 255);
+    color: white
+}
+}
