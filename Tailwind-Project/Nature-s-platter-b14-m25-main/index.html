@@ -9,24 +9,183 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
+    <header class="bg-[#EFEBE3]">
 
-    <nav class="grid grid-cols-3 justify-center container mx-auto pt-4">
+        <nav class="grid grid-cols-2 md:grid-cols-3 gap-4 justify-center container mx-auto pt-4">
         <img src="./assets/nav-logo.png" alt="" class="w-[120] h-auto">
         
-        <ul class="flex gap-4 items-center">
+        <ul class="hidden md:flex gap-4 items-center">
             <li><a href="">Products</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Contact Us</a></li>
         </ul>
 
-        <div class="flex gap-4 items-center">
+        <div class="hidden md:flex gap-4 items-center">
             <span><i class="fa-solid fa-magnifying-glass"></i></span>
             <span><i class="fa-solid fa-cart-shopping"></i></span>
 
             <button class="rounded border border-green-500 font-semibold px-3 py-1">Login</button>
 
             <button class="rounded bg-green-500 text-white font-semibold px-3 py-1">Register</button>
+
+            <span class="block md:hidden text-right"><i class="fa-solid fa-bars"></i></span>
         </div>
     </nav>
+
+
+    <section class="text-center py-[20px]">
+
+
+        <div class="max-w-[60%] mx-auto">
+            
+        <h2 class="font-bold text-4xl mb-4">Freshness <span class="text-green-500">You Can <br>
+Count</span> On, Prices You’ll Love!</h2>
+        <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+        </div>
+
+        <img src="./assets/Hero Section 1.png" alt="" class="mx-auto max-w-[450px] md:max-w-[820px]">
+    </section>
+    </header>
+    
+    <!-- services -->
+    <section class="container mx-auto my-[80px]">
+        <h2 class="text-green-500 font-bold text-4xl mb-3">Services</h2>
+
+        <div class="flex flex-col md:flex-row gap-4">
+            <div class="text-center bg-[#EFEBE3] rounded-md p-4 space-y-4">
+                <div class="bg-white rounded-full h-[120px] w-[120px] flex justify-center items-center p-4 mx-auto">
+                    <img src="./assets/service.png" alt="">
+                </div>
+                
+                <h2 class="font-semibold text-2xl">24/7 Services </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+
+           
+            <div class="text-center bg-[#EFEBE3] rounded-md p-4 space-y-4">
+                
+                <h2 class="font-semibold text-2xl">24/7 Services </h2>
+
+                <div class="bg-white rounded-full h-[120px] w-[120px] flex justify-center items-center p-4 mx-auto">
+                    <img src="./assets/service.png" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+
+            <div class="text-center bg-[#EFEBE3] rounded-md p-4 space-y-4">
+                
+                <h2 class="font-semibold text-2xl">24/7 Services </h2>
+
+                <div class="bg-white rounded-full h-[120px] w-[120px] flex justify-center items-center p-4 mx-auto">
+                    <img src="./assets/service.png" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- popular products -->
+    <section class="container mx-auto my-[80px]">
+        <h2 class="text-green-500 font-bold text-4xl mb-3">Popular Products</h2>
+
+        <div class="grid grid-cols-12 gap-4">
+            <!-- 30% -->
+            <div class="col-span-12 md:col-span-3 space-y-2 bg-linear-to-br from-lime-500 to bg-lime-200">
+                <h2 class="font-semibold text-2xl">30%</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem atque possimus eius earum, dolore quis obcaecati neque nulla repudiandae quaerat aspernatur repellat esse mollitia ullam tempore molestiae et suscipit temporibus.</p>
+                  <button class="rounded bg-green-500 text-white font-semibold px-3 py-1">Buy Now</button>
+
+                  <img src="./assets/Mask group.png"  class="h-[320px] -mt-[180px]" alt="">
+            </div>
+           
+
+            <!-- 70% -->
+            <div class="col-span-12 md:col-span-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+                    <img src="./assets/onion.png" alt="">
+                    <div class="space-y-2">
+                        <span>4.5</span>
+                        <h2 class="font-bold text-shadow-md">Onion</h2>
+                        <p>$39.0</p>
+                    </div>
+                </div>
+
+                  <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+                    <img src="./assets/onion.png" alt="">
+                    <div class="space-y-2">
+                        <span>4.5</span>
+                        <h2 class="font-bold text-shadow-md">Onion</h2>
+                        <p>$39.0</p>
+                    </div>
+                </div>
+
+                  <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+                    <img src="./assets/onion.png" alt="">
+                    <div class="space-y-2">
+                        <span>4.5</span>
+                        <h2 class="font-bold text-shadow-md">Onion</h2>
+                        <p>$39.0</p>
+                    </div>
+                </div>
+
+                  <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+                    <img src="./assets/onion.png" alt="">
+                    <div class="space-y-2">
+                        <span>4.5</span>
+                        <h2 class="font-bold text-shadow-md">Onion</h2>
+                        <p>$39.0</p>
+                    </div>
+                </div>
+
+                  <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+                    <img src="./assets/onion.png" alt="">
+                    <div class="space-y-2">
+                        <span>4.5</span>
+                        <h2 class="font-bold text-shadow-md">Onion</h2>
+                        <p>$39.0</p>
+                    </div>
+                </div>
+
+                  <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+                    <img src="./assets/onion.png" alt="">
+                    <div class="space-y-2">
+                        <span>4.5</span>
+                        <h2 class="font-bold text-shadow-md">Onion</h2>
+                        <p>$39.0</p>
+                    </div>
+                </div>
+
+                  <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+                    <img src="./assets/onion.png" alt="">
+                    <div class="space-y-2">
+                        <span>4.5</span>
+                        <h2 class="font-bold text-shadow-md">Onion</h2>
+                        <p>$39.0</p>
+                    </div>
+                </div>
+
+                  <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+                    <img src="./assets/onion.png" alt="">
+                    <div class="space-y-2">
+                        <span>4.5</span>
+                        <h2 class="font-bold text-shadow-md">Onion</h2>
+                        <p>$39.0</p>
+                    </div>
+                </div>
+
+                  <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+                    <img src="./assets/onion.png" alt="">
+                    <div class="space-y-2">
+                        <span>4.5</span>
+                        <h2 class="font-bold text-shadow-md">Onion</h2>
+                        <p>$39.0</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>t
 </body>
 </html>
