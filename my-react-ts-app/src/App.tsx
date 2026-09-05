@@ -5,10 +5,26 @@ function App() {
 
   return (
     <>
-          <h1>Get started</h1>
-          <Person></Person>
-          <Nusu></Nusu>
+          <h1>My React</h1>
+          <Student></Student>
+          <Student></Student>
+          <Student></Student>
+
     </>
+  )
+}
+
+
+function Student(){
+
+  const studentStyle = {
+    border: '2px solid red'
+  }
+  return (
+    <div style={studentStyle}>
+      <h3>Name: </h3>
+      <h3>Grades: </h3>
+    </div>
   )
 }
 
