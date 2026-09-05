@@ -6,17 +6,31 @@ function App() {
   return (
     <>
           <h1>My React</h1>
+
+          <Developer language = "javascript" experience = "4 years"></Developer>
+          <Developer language = "Python" experience = "4 years"></Developer>
+          {/* <Student name = "i love nusu" gpa = "3.33"></Student>
           <Student></Student>
-          <Student></Student>
-          <Student></Student>
+          <Student></Student> */}
 
     </>
   )
 }
 
 
-function Student(){
+function Developer(props){
+  console.log(props)
+  return (
+    <div>
+      <div className='student'></div>
+      <h4>I love developer nusu: {props.language} </h4>
+    </div>
+    
+  )
+}
 
+function Student(props){
+console.log('inside the student component', props)
   const studentStyle = {
     border: '2px solid red'
   }
