@@ -1,4 +1,5 @@
 import './App.css'
+import Todo from './todo'
 
 function App() {
 
@@ -6,9 +7,9 @@ function App() {
   return (
     <>
           <h1>My React</h1>
-
-          <Developer language = "javascript" experience = "4 years"></Developer>
-          <Developer language = "Python" experience = "4 years"></Developer>
+       <Todo></Todo>
+          {/* <Developer language = "javascript" experience = "4 years"></Developer>
+          <Developer language = "Python" experience = "4 years"></Developer> */}
           {/* <Student name = "i love nusu" gpa = "3.33"></Student>
           <Student></Student>
           <Student></Student> */}
