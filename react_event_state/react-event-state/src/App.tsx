@@ -1,4 +1,7 @@
 import './App.css'
+import Counter from './Counter'
+// import Cart from './cart'
+
 
 function App() {
 
@@ -14,11 +17,14 @@ function App() {
     alert("i love nusuuu " + id)
   }
   return (
-    <>
-    <button onClick={handleClick}>click me</button>
+   <>
+   <Counter></Counter>
+  {/* //  <Cart></Cart>
 
-    <button onClick={() => handleAddToCart(32)}>i love nusu</button>
-    </>
+  //   <button onClick={handleClick}>click me</button>
+
+  //   <button onClick={() => handleAddToCart(32)}>i love nusu</button> */}
+  </>
   )
 }
 export default App
