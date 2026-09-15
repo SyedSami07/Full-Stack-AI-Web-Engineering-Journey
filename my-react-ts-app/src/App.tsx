@@ -53,7 +53,7 @@ function Nusu(){
   return (
     <>
     <p>I Love You</p>
-    <p>Nusu {roll}</p>
+    <p>fuck off{roll}</p>
     </>
   )
 }
